@@ -54,7 +54,7 @@ body {
     top: 55%;
     border: none;
     background-color: #242425;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Montserrat';
     color: whitesmoke;
     cursor: pointer;
@@ -66,7 +66,7 @@ body {
     border: none;
     background-color: #242425;
     font-family: 'Montserrat';
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: whitesmoke;
     cursor: pointer;
 }
@@ -76,7 +76,7 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 1rem;
     height: 60%;
     width: 13%;
     /*background-color: darkgray;*/
@@ -147,8 +147,8 @@ body {
 .button1 {
     background-color: #e4b76b;
     position: absolute;
-    font-size: 20px;
-    top: 50%;
+    font-size: 1rem;
+    top: 52%;
     left: 57%;
     cursor: pointer;
     border: none;
@@ -169,7 +169,7 @@ body {
     position: absolute;
     right: 1%;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 100px;
     height: 50px;
 }
@@ -178,6 +178,7 @@ body {
     position: absolute;
     top: 20%;
     left: 57%;
+    font-size: 4rem;
     height: 270px;
     width: 500px;
     font-weight: bold;
@@ -199,7 +200,7 @@ body {
     position: absolute;
     right: 20%;
     font-family: 'Montserrat';
-    font-size: 1.5rem;
+    font-size: 1rem;
     width: 20%;
     height: 5%;
 }
@@ -333,16 +334,16 @@ A:hover {
     overflow: hidden;
     position: absolute;
     /*background-color: #8d8d8d;*/
-    bottom: 8%;
+    bottom: 4%;
     left: 45%;
-    height: 300px;
+    height: 250px;
     width: 1500px;
     object-position: center;
     z-index: 50;
 }
 .img-front {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     object-fit: cover;
     border-radius: 2px;
     
@@ -378,11 +379,11 @@ A:hover {
     }
 
     .pinkitem1 {
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     .pinkitem2 {
-        font-size: 1rem;
+        font-size: 0.5rem;
     }
 
     .newmenu {
@@ -398,7 +399,7 @@ A:hover {
 
     .button1 {
         top: 60%;
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
 
     .alink {
