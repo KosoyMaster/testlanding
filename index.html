@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    <title>Document</title>
+</head>
+<body class="lass1">
+
+
+<div class="div">
+    <div class="div1 owl-theme owl-loaded">
+        <div class="pinkback">
+
+                <div class="front-img">
+                    <img src="item4_sqr.jpg" class="img-front">
+                    <img src="item2_sqr.jpg" class="img-front">
+                    <img src="item3_sqr.jpg" class="img-front">
+                    <img src="item1_sqr.jpg" class="img-front">
+                </div>
+
+            <div class="newmenu">
+                NEW<br>
+                BREAKFAST<br>
+                MENU
+            </div>
+
+            <div class="pinkback1">
+                <div class="logo">
+                    <a href="" class="pinkitem0">LOGO</a>
+                    <button class="pinkitem1 customNextBtn"> Next</button>
+                    <button class="pinkitem2 customPrevBtn"> Prev</button>
+                </div>
+                <button onclick="show('block')"class="button1 ">
+                    BOOK A TABLE
+                </button>
+            </div>
+            <div class="worddiv menu2">
+                <a href="" target="_blank" class="alink">Reservation</a>
+                <a href="" target="_blank" class="alink">Place</a>
+                <a href="" target="_blank" class="alink">Contact</a>
+            </div>
+
+            <div class="menu">
+                <i class="fa fa-bars menu1" aria-hidden="false"></i>
+                <a href="" class="alink">Menu</a>
+            </div>
+        </div>
+
+        <div class="div2 ">
+            <div class="owl-carousel">
+                <img  data-src="item1.jpg" class="owl-lazy img1">
+                <img  data-src="item2.jpg" class="owl-lazy img1">
+                <img  data-src="item3.jpg" class="owl-lazy img1">
+                <img  data-src="item4.jpg" class="owl-lazy img1">
+            </div>
+        </div>
+    </div>
+    <div class="div0"></div>
+    <div onclick="show('none')" id="gray"></div>
+    <div class="form11">
+    <div id="window">
+        <div class="close" onclick="show('none')"> X </div>
+        <div class="form">
+            <h2>Бронирование стола</h2>
+            <form action="index.html" name="f1">
+                <input type="text" placeholder="Фамилия" name="name1" class="input">
+                <input type="text" placeholder="Номер" name="name2" class="input">
+                <button class="regbutt">Отправить</button>
+            </form>
+        </div>
+    </div>
+    </div>
+</div>
+    <script>
+        function show(state)
+        {
+            document.getElementById('window').style.display = state;
+            document.getElementById('gray').style.display = state;
+        }
+    </script>
+    <script src="jquery.min.js"></script>
+<script src="owlcarousel/owl.carousel.min.js"></script>
+<script>$(document).ready(function(){
+    var owl = $(".owl-carousel")
+    owl.owlCarousel({
+        items: 1,
+        dots: true,
+        responsive: false,
+        lazyLoad: true,
+    })
+    $('.customNextBtn').click(function() {
+        owl.trigger('next.owl.carousel');
+    })
+    $('.customPrevBtn').click(function() {
+        owl.trigger('prev.owl.carousel');
+    })
+});</script>
+
+ </body>
+</html>
