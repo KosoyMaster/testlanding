@@ -362,7 +362,7 @@ A:hover {
     overflow: auto;
 }
 
-@media (max-width: 1370px) {
+@media (max-width: 1366px) {
 
     .owl-theme .owl-nav.disabled + .owl-dots {
         margin-top: 10px;
@@ -388,7 +388,7 @@ A:hover {
 
     .newmenu {
         position: absolute;
-        top: 23%;
+        top: 21%;
         left: 57%;
         height: 270px;
         width: 300px;
@@ -398,8 +398,8 @@ A:hover {
     }
 
     .button1 {
-        top: 50%;
-        font-size: 1rem;
+        top: 57%;
+        font-size: 0.7rem;
     }
 
     .alink {
@@ -431,48 +431,19 @@ A:hover {
         overflow: hidden;
         position: absolute;
         /*background-color: #8d8d8d;*/
-        bottom: 4%;
+        bottom: 3%;
         left: 45%;
-        height: 200px;
+        height: 150px;
         width: 1500px;
         object-position: center;
         z-index: 50;
     }
     .img-front {
-        height: 200px;
-        width: 200px;
+        height: 150px;
+        width: 150px;
         object-fit: cover;
         border-radius: 2px;
 
     }
 }
-@media (max-width: 900px) {
-    .owl-theme .owl-nav.disabled + .owl-dots {
-        margin-top: 10px;
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        left: 13.2%;
-        top: 25%;
-        z-index: 20;
-    }
-    .front-img {
-        display: inline;
-        overflow: hidden;
-        position: absolute;
-        /*background-color: #8d8d8d;*/
-        bottom: 4%;
-        left: 45%;
-        height: 250px;
-        width: 1500px;
-        object-position: center;
-        z-index: 50;
-    }
-    .img-front {
-        height: 100px;
-        width: 100px;
-        object-fit: cover;
-        border-radius: 2px;
 
-    }
-}
